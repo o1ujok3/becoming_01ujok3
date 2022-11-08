@@ -1,0 +1,45 @@
+* {
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height:50px;
+    background-color:#1b1b32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    color: #f1be32;
+    font-size: min(5vw, 1.2em);
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#brandname {
+    width: max(100px, 18vw);
+    background-color: #0a0a23;
+    padding: 0.4rem;
+}
+
+nav a {
+    list-style-type: none;
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+h3, nav.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items:center;
+}
+
